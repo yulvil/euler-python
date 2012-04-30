@@ -17,5 +17,5 @@ def fib(n):
 def fib2():
     a,b = 0,1
     while True:
-        a,b, = b,a+b
+        (a, b) = (b, a+b)
         yield a

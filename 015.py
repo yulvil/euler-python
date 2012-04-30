@@ -1,6 +1,9 @@
 #/bin/python
 
-# http://projecteuler.net/index.php?section=problems&id=15
+# http://projecteuler.net/problem=15
+
+# Starting in the top left corner of a 2x2 grid, there are 6 routes (without backtracking) to the bottom right corner.
+# How many routes are there through a 20x20 grid?
 
 from math import factorial
 from itertools import permutations
@@ -33,3 +36,5 @@ print( res )
 
 print( prime.prime_factors(res / 137846528820) )
 print( prime.prime_factors(137846528820) )
+
+# unsolved
